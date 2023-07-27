@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*Ejercicio 3*/
+        let Nombre = "Alberto"
+        let SueldoNum = 3000
+
+        console.log(Nombre + " " + SueldoNum)
+    /*Ejercicio 4*/
+        let Nombre2 = prompt("Ingrese su nombre: ")
+        let Mail = prompt("Ingrese su mail: ")
+        console.log(Nombre2 + " " + Mail)
+    /*Ejercicio 5*/
+        let Lado = prompt("Ingrese el tramaño del lado del cuadrado: ");
+        let resultado = Lado * 4;
+		alert("El resultado del perímetro es: " + resultado);
+        
+        let n1 = prompt("Ingrese un numero: ");
+        let n2 = prompt("Ingrese un 2do numero: ");
+        let n3 = prompt("Ingrese un 3er numero: ");
+        let n4 = prompt("Ingrese un 4to numero: ");
+        let suma = n1 + n2;
+        let product = n3 * n4;
+        alert("El resultado de la suma es" + suma);
+        alert("El producto es" + product);
+
+        //
+
+        let objeto = prompt("Ingrese el objeto a comprar");
+    	let precio = prompt("Ingrese su precio");
+    	let cantidad = prompt("Ingrese la cantidad a comprar");
+    
+    	let final = precio * cantidad;
+    	alert("El precio final por comprar " + cantidad+ " " + objeto + " es " + final)
+
+        /*Ejercicio 6 */
+
+        let nota1 = parseInt(prompt("ingrese la primera nota: "));
+        let nota2 = parseInt(prompt("ingrese la segundanota: "));
+        let nota3 = parseInt(prompt("ingrese la tercera nota: "));
+        
+        let sumNotas = nota1 + nota2 + nota3;
+        
+        let promedio = sumNotas / 3;
+
+
+        alert(promedio);
+        
+        let clave = prompt("Ingrese su clave");
+        let claverepeat = prompt("Ingrese su clave de nuevo");
+        if (clave == claverepeat) {
+            alert("Las claves son iguales")
+            
+        } else { alert("Son desiguales")}
+
+        /*Ejercicio 7*/
+
+       let num1 = parseInt(prompt("Ingrese un numero"));
+       let num2 = parseInt(prompt("Ingrese otro numero"));
+
+
+       if (num1 > num2) {
+       alert("El primer numero es mayor al segundo")
+
+       } else { alert("El primer numero es menor al segundo")}
+      
+            
+    </script>
+</body>
+</html>
